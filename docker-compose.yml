@@ -10,8 +10,8 @@ services:
       - db
 
   db:
-    image: mysql:8
-    container_name: laravel_db
+    image: postgres:16
+    container_name: webjf02_db
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
